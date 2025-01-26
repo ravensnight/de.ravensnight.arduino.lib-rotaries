@@ -1,0 +1,23 @@
+{
+  "name": "Raven's Night lib-rotaries",
+  "version": "1.0.0",
+  "description": "Defines a helper for multiple rotary encoders.",
+  "keywords": "rotary encoder",
+  "repository" : {
+    "type" : "git",
+    "url" : "https://github.com/ravensnight/de.ravensnight.arduino.lib-rotaries"
+  }, 
+  "authors":
+  [
+    {
+      "name": "ravensnight",
+      "email": "ravensnight@hoheisels-welt.de",
+      "url": ""
+    }
+  ],
+  "license": "MIT",
+  "dependencies": {
+  },
+  "frameworks": "arduino",
+  "platforms": "atmelavr,espressif32"
+}
