@@ -1,5 +1,5 @@
 {
-  "name": "ravensnight/lib-rotaries",
+  "name": "ravensnight lib-rotaries",
   "version": "1.0.0",
   "description": "Defines a helper for multiple rotary encoders.",
   "keywords": "rotary encoder",
