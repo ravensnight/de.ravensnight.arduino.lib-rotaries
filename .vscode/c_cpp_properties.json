@@ -8,7 +8,9 @@
         {
             "name": "PlatformIO",
             "includePath": [
+                "g:/dev/RN-MC1210F/de.ravensnight.arduino.lib-rotaries/include",
                 "g:/dev/RN-MC1210F/de.ravensnight.arduino.lib-rotaries/src",
+                "g:/dev/RN-MC1210F/de.ravensnight.arduino.lib-rotaries/.pio/libdeps/lib-rotaries/PinChangeInterrupt/src",
                 "C:/Users/waldwuffel/.platformio/packages/framework-arduino-avr-minicore/cores/MiniCore",
                 "C:/Users/waldwuffel/.platformio/packages/framework-arduino-avr-minicore/variants/standard",
                 "C:/Users/waldwuffel/.platformio/packages/framework-arduino-avr-minicore/libraries/AVR_examples/src",
@@ -24,7 +26,9 @@
             "browse": {
                 "limitSymbolsToIncludedHeaders": true,
                 "path": [
+                    "g:/dev/RN-MC1210F/de.ravensnight.arduino.lib-rotaries/include",
                     "g:/dev/RN-MC1210F/de.ravensnight.arduino.lib-rotaries/src",
+                    "g:/dev/RN-MC1210F/de.ravensnight.arduino.lib-rotaries/.pio/libdeps/lib-rotaries/PinChangeInterrupt/src",
                     "C:/Users/waldwuffel/.platformio/packages/framework-arduino-avr-minicore/cores/MiniCore",
                     "C:/Users/waldwuffel/.platformio/packages/framework-arduino-avr-minicore/variants/standard",
                     "C:/Users/waldwuffel/.platformio/packages/framework-arduino-avr-minicore/libraries/AVR_examples/src",
@@ -40,18 +44,18 @@
             },
             "defines": [
                 "PLATFORMIO=60116",
-                "ARDUINO_AVR_ATmega8",
+                "ARDUINO_AVR_ATmega88",
                 "F_CPU=16000000L",
                 "ARDUINO_ARCH_AVR",
                 "ARDUINO=10808",
-                "__AVR_ATmega8__",
+                "__AVR_ATmega88__",
                 ""
             ],
             "cStandard": "gnu11",
             "cppStandard": "gnu++17",
             "compilerPath": "C:/Users/waldwuffel/.platformio/packages/toolchain-atmelavr/bin/avr-gcc.exe",
             "compilerArgs": [
-                "-mmcu=atmega8",
+                "-mmcu=atmega88",
                 ""
             ]
         }
